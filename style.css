@@ -1,6 +1,63 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
-header {
-    background-color: black;
+header{
+    background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/14181/images/5aed40-4d62-6d7-17e5-bb6434b64c8_Kajabi_1280_x_720_59_.jpg");
+    width: 1200px;
+    height: 200px;
     color: white;
-    padding: 128px 16px;
+}
+
+body {background-color: #a9d574;}
+    
+
+
+.section1b {
+    border: none;
+    padding: 20px 35px;
+    font-size: larger;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.section1b:hover {
+    background-color: #71f865;
+    color: aliceblue;
+}
+
+.section2b {
+    border: none;
+    padding: 20px 35px;
+    font-size: larger;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.section2b:hover {
+    background-color: #71f865;
+    color: aliceblue;
+}
+
+.section3b {
+    border: none;
+    padding: 20px 35px;
+    font-size: larger;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.section3b:hover {
+    background-color: #71f865;
+    color: aliceblue;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 300;
+    padding: 16px 16px;
 }
